@@ -8,8 +8,24 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.42;
+}
+
+em {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #1A7FBB;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #1A7FBB;
+}
+
+a:visited {
+  color: #00426b;
 }

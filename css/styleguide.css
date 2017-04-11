@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+  background-color: #f2eeeb;
+}
+
+/* h10 en h11 worden enkel gebruikt in de styleguide */
+
+h10 {
+  font-size: 5em;
+  font-family: 'Open Sans', sans-serif;
+  color: #ee393e;
+}
+
+h11 {
+  font-size: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.color {
+    width: 100%;
+    height: 100px;
+
+}
+
+.color_text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+
+.icon_margin {
+    margin: 15px 15px 0;
+}
+
+.button {
+    height: 50px;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+.button:hover {
+    transition: 0.1s;
+}
+
+.hire_me, .contact{
+    background-color: #ee393e;
+}
+
+.hire_me:hover, .contact:hover {
+    background-color: #ff6d71;
+}
+
+
+
+.send {
+    background-color: #1A7FBB;
+}
+
+.send:hover {
+    background-color: #00426b;
+}
+.spacing {
+    height: 100px;
+}
