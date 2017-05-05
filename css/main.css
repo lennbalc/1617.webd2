@@ -72,3 +72,21 @@ i {
     margin: 0 20px;
     color: #303030;
 }
+
+.button {
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+.button:hover {
+    transition: 0.1s;
+}

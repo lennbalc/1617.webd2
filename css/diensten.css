@@ -1,0 +1,8 @@
+.hire_me {
+    background-color: #ee393e;
+    margin: 25px 0;
+}
+
+.hire_me:hover {
+    background-color: #ff6d71;
+}

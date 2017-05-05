@@ -30,3 +30,7 @@ a {
 a:visited {
   color: #00426b;
 }
+
+.first_paragraph {
+  margin-top: 0;
+}
