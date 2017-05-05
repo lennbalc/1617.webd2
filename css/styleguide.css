@@ -20,9 +20,12 @@ h11 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.styleguide-typography {
+    text-align: left;
+}
 .color {
     width: 100%;
-    height: 100px;
+    padding-top: 100%;
 
 }
 
@@ -61,8 +64,6 @@ h11 {
     background-color: #ff6d71;
 }
 
-
-
 .send {
     background-color: #1A7FBB;
 }
@@ -70,6 +71,69 @@ h11 {
 .send:hover {
     background-color: #00426b;
 }
-.spacing {
-    height: 100px;
+
+.meer_info {
+    height: 25px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0 20px 20px 0;
+    float: left;
+    background-color: white;
+    color: #1A7FBB;
+}
+
+.meer_info:hover {
+    transition: 0.1s;
+    opacity: 0.7;
+}
+
+.grid__row {
+    margin-bottom: 50px;
+}
+
+.navigation_text {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 18px;
+}
+
+.navigation {
+    margin-top: 50px;
+}
+
+nav a, nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #757575; 
+}
+.nav_active_page {
+    border-bottom: 1px solid #000000;
+}
+
+a.company_logo {
+        display:block; /* eerst van de a een block-element maken */
+        width: 100%;
+        /* background*/
+        background-image: url("../assets/images/balcaen_logo.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 100% auto;
+        /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+        overflow:hidden;
+        text-indent:-999px;
+    }
+
+a.company_logo:hover {
+    border: 0px;
+}
+
+.footer  {
+    margin: 0;
 }

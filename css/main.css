@@ -15,3 +15,60 @@ html, body {
 body {
   background-color: #f2eeeb;
 }
+
+nav a, nav a:visited {
+    text-decoration: none;
+    color: #303030;
+    font-weight: 700; 
+}
+
+.navigation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #757575; 
+}
+.nav_active_page {
+    border-bottom: 1px solid #000000;
+}
+
+.navigation_text {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 1.1em;
+}
+
+a.company_logo {
+        display:block; /* eerst van de a een block-element maken */
+        width: 100%;
+        /* background*/
+        background-image: url("../assets/images/balcaen_logo.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 100% auto;
+        /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+        overflow:hidden;
+        text-indent:-999px;
+    }
+
+a.company_logo:hover {
+    border: 0px;
+}
+
+.center {
+    text-align: center;
+    float: none;
+}
+
+.footer {
+    background-color: #ebe5e0;
+    padding: 1.1em 0;
+    font-size: 0.8em;
+}
+
+i {
+    margin: 0 20px;
+    color: #303030;
+}
