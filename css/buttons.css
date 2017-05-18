@@ -1,0 +1,59 @@
+.button {
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    margin: 2em 0;
+}
+
+.button:hover {
+    transition: 0.1s;
+}
+
+.meer_info {
+    height: 25px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0 20px 20px 0;
+    float: right;
+    background-color: white;
+    color: #1A7FBB;
+    position: ;
+    top: -40px;
+}
+
+.meer_info:hover {
+    transition: 0.1s;
+    opacity: 0.7;
+}
+
+.hire_me {
+    background-color: #ee393e;
+}
+
+.hire_me:hover {
+    background-color: #ff6d71;
+}
+
+input[type=submit] {
+    float: left;
+    border: none;
+}
+
+.send {
+    background-color: #1A7FBB;
+}
+
+.send:hover {
+    background-color: #00426b;
+}

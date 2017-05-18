@@ -8,7 +8,7 @@
     <!-- Mobile Viewport -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Most important SEO tag -->
-    <title>Home | Webd2 | Lennert Balcaen</title>
+    <title>Contact | Webd2 | Lennert Balcaen</title>
     <!-- Other SEO friendly tags -->	
     <meta name="description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
     <meta name="keywords" content="HTML5, JavaScript, jQuery, CSS3">
@@ -39,12 +39,13 @@
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/images.css">
     <link rel="stylesheet" href="css/forms.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
+    <link rel="icon" href="assets/icons/balcaen_icon.png">
   </head>
 
   <body>
@@ -54,11 +55,11 @@
         <div class="grid__row">
           <div class="grid__column-8 grid__offset-2 navigation">
             <nav>
-              <div class="grid__column-2"><div class="navigation_text"><a href="index.html" class="nav_active_page">HOME</a></div></div>
+              <div class="grid__column-2"><div class="navigation_text"><a href="index.html">HOME</a></div></div>
               <div class="grid__column-2"><div class="navigation_text"><a href="diensten.html">DIENSTEN</a></div></div>
               <div class="grid__column-4"><h1><a href="index.html" role="btn" class="company_logo">Balcaen</a></h1></div>
               <div class="grid__column-2"><div class="navigation_text"><a href="overons.html">OVER ONS</a></div></div>
-              <div class="grid__column-2"><div class="navigation_text"><a href="contact.html">CONTACT</a></div></div>
+              <div class="grid__column-2"><div class="navigation_text"><a href="contact.html" class="nav_active_page">CONTACT</a></div></div>
             </nav>
           </div>
         </div>
@@ -69,21 +70,58 @@
     <div class="grid__wrapper">
       <div class="grid__container">
         <div class="grid__row">
-          <div class="grid__column-8 grid__offset-2">
-            <div class="grid__row">
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_1.png" alt="Tekening van kubussen" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_2.png" alt="Logo voor een boogschietclub" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_3.png" alt="Handleiding scooter" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_4.png" alt="Typografisch logo 'Cosmo'" class="portfolio_img"><a href="detail.html"><div class="meer_info">Meer info</div></a></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_5.png" alt="Persoonlijke poster" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_6.png" alt="Letterexplosie" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_7.png" alt="Stilering vogel" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_8.png" alt="Boom wallpaper" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_9.png" alt="Memory kaarten met stileringen van dieren" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_10.png" alt="Initiaallogo" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_11.png" alt="Stilering masker" class="portfolio_img"></div></div>
-            <div class="grid__column-6"><div class="portfolio_div"><img src="assets/images/work_12.png" alt="Typografisch logo van een uitdrukking" class="portfolio_img"></div></div>
+          <div class="grid__column-4 grid__offset-4">
+            <h1>Contact</h1>
+            <div class="wrap">
+              <div class="left_col">
+                  <p>E-mail</p>
+                  <p>Tel.</p>
+                  <p>Adres</p>
+              </div>
+              <div class="right_col">
+                  <p><a href="mailto:lennertbalcaen@gmail.com">lennertbalcaen@gmail.com</a></p>
+                  <p>+32468 23 54 08</p>
+                  <p>Kerkkouter 15 9700 Oudenaarde</p>
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="grid__row">
+            <div class="grid__column-6 grid__offset-3">
+                <div id="map" class="map"></div>
+                <script>
+                function initMap() {
+                    var uluru = {lat: 50.853248, lng: 3.595892};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 16,
+                    center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                    });
+                }
+                </script>
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt12wgswrIvT0dz649cM6xznEpbW1Amfg&callback=initMap">
+                </script>
+            </div>
+        </div>
+        <div class="grid__row">
+            <div class="grid__column-6 grid__offset-3">
+                <h1>Vragen?</h1>
+                <p class="center_text">Als u vragen heeft kan u deze gerust doorsturen. Uw vraag kan gaan van onze mogelijkheden of prijzen, tot het lievelingseten van onze mascotte! Wij proberen uw vraag zo spoedig mogelijk te beantwoorden.</p>
+            </div>
+        </div>
+        <div class="grid__row">
+            <div class="grid__column-6 grid__offset-3">
+                <form action="#">
+                <input type="text">
+            </div>
+            <div class="grid__column-4 grid__offset-4">
+              <input type="submit" value="versturen" class="button send">
+              </form> 
+            </div>
         </div>
       </div>
     </div>

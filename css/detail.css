@@ -1,22 +1,11 @@
 .portfolio_img {
   width: 100%;
+  margin: 0 0 3em;
 }
 
-.ontwikkelproces {
-    width: 30%;
-    height: 220px;
+.pic {
+    width: 100%;
+    height: 200px;
     background-color: gray;
-    display: inline-block;
-}
-
-.dev1 {
-    float: left;
-}
-
-.dev2 {
-    margin: 0 5%;
-}
-
-.dev3 {
-    float: right;
+    margin: 0 0 3em;
 }

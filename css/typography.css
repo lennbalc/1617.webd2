@@ -1,14 +1,23 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.42;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.42;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.42;
@@ -33,4 +42,30 @@ a:visited {
 
 .first_paragraph {
   margin-top: 0;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.wrap {
+   width:100%;
+   margin:0 auto;
+}
+.left_col {
+   float:left;
+   width:50%;
+}
+.right_col {
+   float:right;
+   width:50%;
+}
+
+.wrap p {
+  margin: 0 0 1em;
+}
+
+.description {
+    text-align: center;
+    padding: 0 0.3em;
 }
