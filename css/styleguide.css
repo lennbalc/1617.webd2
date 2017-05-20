@@ -99,19 +99,16 @@ h11 {
     margin: 3em 0 1em;
 }
 
-.navigation_text {
-    text-align: center;
-    padding-top: 2em;
-    font-size: 18px;
+nav a, nav a:visited {
+    text-decoration: none;
+    color: #303030;
+    font-weight: 700; 
 }
 
 .navigation {
     margin-top: 50px;
-}
-
-nav a, nav a:visited {
-    text-decoration: none;
-    color: black;
+    margin-bottom: 50px;
+    height: 90px;
 }
 
 nav a:hover {
@@ -119,6 +116,12 @@ nav a:hover {
 }
 .nav_active_page {
     border-bottom: 1px solid #000000;
+}
+
+.navigation_text {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 90px;
 }
 
 a.company_logo {
