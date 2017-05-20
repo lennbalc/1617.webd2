@@ -49,14 +49,12 @@ nav a:hover {
 }
 
 a.company_logo {
-        display:block; /* eerst van de a een block-element maken */
+        display:block;
         width: 100%;
-        /* background*/
         background-image: url("../assets/images/balcaen_logo.svg");
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: 100% auto;
-        /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
         overflow:hidden;
         text-indent:-999px;
     }
